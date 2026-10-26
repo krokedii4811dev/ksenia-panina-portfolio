@@ -192,15 +192,15 @@
     
     <!-- Фотографии скрыты до скролла -->
     <div id="card-left" class="hover-target absolute z-10 w-36 h-48 md:w-64 md:h-80 rounded-xl overflow-hidden shadow-2xl opacity-0 scale-95">
-      <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Portrait 1" class="w-full h-full object-cover">
+      <img src="images/ls5.JPG" alt="Portrait 1" class="w-full h-full object-cover">
     </div>
 
     <div id="card-right" class="hover-target absolute z-10 w-36 h-48 md:w-64 md:h-80 rounded-xl overflow-hidden shadow-2xl opacity-0 scale-95">
-      <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" alt="Portrait 2" class="w-full h-full object-cover">
+      <img src="images/p3.JPG" alt="Portrait 2" class="w-full h-full object-cover">
     </div>
 
     <div id="card-center" class="hover-target absolute z-10 w-48 h-64 md:w-80 md:h-[440px] rounded-xl overflow-hidden shadow-2xl opacity-0 scale-95">
-      <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80" alt="Main Fashion" class="w-full h-full object-cover">
+      <img src="images/r2.JPG" alt="Main Fashion" class="w-full h-full object-cover">
     </div>
 
     <!-- Текст заголовка поверх -->
@@ -249,7 +249,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-14 items-center mb-20 md:mb-28">
       <div class="lg:col-span-5 reveal-up">
         <div class="hover-target overflow-hidden rounded-2xl shadow-xl">
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="Фотограф" class="w-full h-[380px] md:h-[460px] object-cover hover:scale-105 transition duration-700">
+          <img src="images/ksenia.JPG" alt="Фотограф" class="w-full h-[380px] md:h-[460px] object-cover hover:scale-105 transition duration-700">
         </div>
       </div>
       <div class="lg:col-span-7 reveal-up">
@@ -592,26 +592,26 @@
 
     // Массив из 20 фотографий портфолио (распределены по 3 категориям)
     const portfolioItems = [
-      { cat: 'portrait', img: 'images/ls1.JPG', h: 'h-80' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80', h: 'h-96' },
-      { cat: 'love',     img: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=700&q=80', h: 'h-72' },
-      { cat: 'report',   img: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=700&q=80', h: 'h-80' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=80', h: 'h-96' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80', h: 'h-80' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=700&q=80', h: 'h-72' },
-      { cat: 'love',     img: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=80', h: 'h-96' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80', h: 'h-80' },
-      { cat: 'report',   img: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=700&q=80', h: 'h-72' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=700&q=80', h: 'h-96' },
-      { cat: 'love',     img: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=700&q=80', h: 'h-80' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80', h: 'h-80' },
-      { cat: 'report',   img: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=700&q=80', h: 'h-96' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=80', h: 'h-72' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=700&q=80', h: 'h-96' },
-      { cat: 'love',     img: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=700&q=80', h: 'h-80' },
-      { cat: 'report',   img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=700&q=80', h: 'h-80' },
-      { cat: 'portrait', img: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=700&q=80', h: 'h-96' },
-      { cat: 'report',   img: 'https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=700&q=80', h: 'h-72' }
+      { cat: 'portrait', img: 'images/p1.JPG', h: 'h-80' },
+      { cat: 'portrait', img: 'images/p2.JPG', h: 'h-96' },
+      { cat: 'love',     img: 'images/ls1.JPG', h: 'h-72' },
+      { cat: 'report',   img: 'images/r1.JPG', h: 'h-80' },
+      { cat: 'portrait', img: 'images/p3.JPG', h: 'h-96' },
+      { cat: 'portrait', img: 'images/p4.JPG', h: 'h-80' },
+      { cat: 'portrait', img: 'images/p5.JPG', h: 'h-72' },
+      { cat: 'love',     img: 'images/ls2.JPG', h: 'h-96' },
+      { cat: 'portrait', img: 'images/p7.PNG', h: 'h-80' },
+      { cat: 'report',   img: 'images/r2.JPG', h: 'h-72' },
+      { cat: 'portrait', img: 'images/p8.PNG', h: 'h-96' },
+      { cat: 'love',     img: 'images/ls3.JPG', h: 'h-80' },
+      { cat: 'portrait', img: 'images/p9.PNG', h: 'h-80' },
+      { cat: 'report',   img: 'images/r3.JPG', h: 'h-96' },
+      { cat: 'report', img: 'images/r4.JPG', h: 'h-72' },
+      { cat: 'love', img: 'images/ls4.JPG', h: 'h-96' },
+      { cat: 'love',     img: 'images/ls7.PNG', h: 'h-80' },
+      { cat: 'love',   img: 'images/ls5.JPG', h: 'h-80' },
+      { cat: 'love', img: 'images/ls6.JPG', h: 'h-96' },
+      { cat: 'love',   img: 'images/ls7.JPG', h: 'h-72' }
     ];
 
     const cols = [
